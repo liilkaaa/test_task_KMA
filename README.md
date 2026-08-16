@@ -236,7 +236,7 @@ GROUP BY s.status;
 
 # Завдання 2, частина 1: EDA
 
-Повний аналіз — у `notebooks/eda.ipynb`.
+Повний аналіз — у `EDA.ipynb`.
 
 ## Ключові висновки
 
