@@ -262,11 +262,23 @@ https://public.tableau.com/shared/Q5N7SNBMP?:display_count=n&:origin=viz_share_l
 ## Структура дашборда
 
 KPI Cards: Success Rate | Net Revenue | Refund Rate | Chargeback Rate | Fee Overhead
+
+
 ↓
+
+
 Success Rate by PSP | Net Revenue over time
+
+
 ↓
+
+
 Top Decline Reasons | Refund Rate by PSP
+
+
 ↓
+
+
 Chargeback Rate by PSP | Fee Overhead % over time
 
 
