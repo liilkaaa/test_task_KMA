@@ -309,9 +309,7 @@ COUNT([Transaction Id])
 
 ### 3. Net Revenue
 
-SUM(IF [Transaction Type]='SALE' AND [Status]='SUCCESS' THEN [Amount Usd] ELSE 0 END)
-+ SUM(IF [Transaction Type] IN ('REFUND','CHARGEBACK','VOID','ALERT','DISPUTE') THEN [Amount Usd] ELSE 0 END)
-- SUM([Fee Usd])
+SUM(IF [Transaction Type]='SALE' AND [Status]='SUCCESS' THEN [Amount Usd] ELSE 0 END) + SUM(IF [Transaction Type] IN ('REFUND','CHARGEBACK','VOID','ALERT','DISPUTE') THEN [Amount Usd] ELSE 0 END) - SUM([Fee Usd])
 
 **Чому важливо.** Це гроші, які компанія реально заробила, а не просто сума всіх успішних платежів.
 
